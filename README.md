@@ -20,4 +20,4 @@ The following command will start the node server on port 3001:
 $ npm start
 ```
 
-Load the `/extension` folder at developer mode to chrome :)
+Load the `/extension` folder (Load unpacked) while in developer mode to chrome :)
