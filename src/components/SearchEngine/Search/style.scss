@@ -1,0 +1,31 @@
+#search {
+  display: flex;
+  width: 100%;
+  margin: 0 auto 10px 0;
+
+  input {
+    padding: 7px 0;
+    background-color: rgba(0,0,0,0);
+    border: none;
+    border-bottom: 1px solid #6b6b6b;
+    color: white;
+    margin-right: 10px;
+    flex-grow: 1;
+
+    &::placeholder {
+      color: whitesmoke;
+    }
+  }
+
+  button {
+    background-color: #01441f;
+    border: 1px solid #6b6b6b;
+    border-radius: 6px;
+    transition: all .3s;
+    color: whitesmoke;
+
+    &:active {
+      background-color: #155724;
+    }
+  }
+}

@@ -1,0 +1,38 @@
+.keyword-option {
+  padding: 2px 5px;
+  border-radius: 10px;
+  font-size: .9em;
+  text-align: left;
+  background-color: whitesmoke;
+  margin-bottom: 5px;
+  cursor: pointer;
+  transition: all .3s;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &.not-found {
+    background-color: transparent !important;
+    cursor: auto !important;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+
+    span {
+      cursor: auto !important;
+    }
+  }
+
+  &:hover {
+    background-color: wheat;
+  }
+
+  span {
+    cursor: pointer;
+
+    img {
+      width: 50px;
+    }
+  }
+}

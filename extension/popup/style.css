@@ -1,0 +1,111 @@
+#app-header ul {
+  display: flex;
+  margin: 0 0 10px 0;
+  padding: 0;
+  list-style: none; }
+  #app-header ul li {
+    background-color: gray;
+    width: 50%;
+    margin-right: 5px;
+    text-align: center;
+    cursor: pointer;
+    padding: 3px 0;
+    font-size: .9em;
+    transition: all .3s;
+    border-radius: 6px; }
+    #app-header ul li.selected {
+      background-color: whitesmoke; }
+    #app-header ul li:hover {
+      background-color: lightgray; }
+    #app-header ul li:active {
+      background-color: whitesmoke; }
+    #app-header ul li:last-child {
+      margin-right: 0; }
+
+.view {
+  width: 200px;
+  height: 255px;
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 10px;
+  position: relative;
+  background-color: black;
+  margin: 0 auto;
+  overflow-y: auto;
+  overflow-x: hidden; }
+
+#time {
+  color: lightgray;
+  text-align: center; }
+
+#search {
+  display: flex;
+  width: 100%;
+  margin: 0 auto 10px 0; }
+  #search input {
+    padding: 7px 0;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    border-bottom: 1px solid #6b6b6b;
+    color: white;
+    margin-right: 10px;
+    flex-grow: 1; }
+    #search input::placeholder {
+      color: whitesmoke; }
+  #search button {
+    background-color: #01441f;
+    border: 1px solid #6b6b6b;
+    border-radius: 6px;
+    transition: all .3s;
+    color: whitesmoke; }
+    #search button:active {
+      background-color: #155724; }
+
+.keyword-option {
+  padding: 2px 5px;
+  border-radius: 10px;
+  font-size: .9em;
+  text-align: left;
+  background-color: whitesmoke;
+  margin-bottom: 5px;
+  cursor: pointer;
+  transition: all .3s; }
+  .keyword-option:last-child {
+    margin-bottom: 0; }
+  .keyword-option.not-found {
+    background-color: transparent !important;
+    cursor: auto !important;
+    text-align: center;
+    font-size: 14px;
+    color: white; }
+    .keyword-option.not-found span {
+      cursor: auto !important; }
+  .keyword-option:hover {
+    background-color: wheat; }
+  .keyword-option span {
+    cursor: pointer; }
+    .keyword-option span img {
+      width: 50px; }
+
+#keywords-list {
+  display: flex;
+  flex-flow: column nowrap;
+  flex-grow: 1;
+  overflow: auto; }
+
+.loader {
+  color: whitesmoke;
+  text-align: center; }
+
+body {
+  padding: 0;
+  margin: 0; }
+
+* {
+  outline: none !important; }
+
+input {
+  outline: none; }
+
+
+/*# sourceMappingURL=style.css.map*/

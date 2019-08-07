@@ -1,0 +1,12 @@
+.view {
+  width: 200px;
+  height: 255px;
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 10px;
+  position: relative;
+  background-color: black;
+  margin: 0 auto;
+  overflow-y: auto;
+  overflow-x: hidden;
+}

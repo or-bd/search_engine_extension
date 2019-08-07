@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Search Engine Extension",
+  "version": "1.0.0",
+  "description": "Find what you need from anywhere",
+  "icons": {
+    "128": "popup/media/icon128.png"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_popup": "popup/index.html"
+  }
+}
